@@ -1,73 +1,97 @@
-# Welcome to your Lovable project
+# FUTURE FLEX – AI Powered Career Path Navigator
 
-## Project info
+Future Flex is an AI-powered career guidance and resume building platform designed to help students and professionals discover the right career paths based on their skills, interests, and profile information.
 
-**URL**: https://lovable.dev/projects/7274cf7a-f6b8-4d06-99ea-8ab3af819560
+The platform analyzes user profiles and provides personalized career recommendations, skill development guidance, and resume assistance to help users plan their future effectively.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+• AI-based career recommendations  
+• Resume builder for students and job seekers  
+• Skill tracking and development suggestions  
+• Profile-based career path navigation  
+• Interactive UI with modern components  
+• Responsive and clean dashboard interface  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7274cf7a-f6b8-4d06-99ea-8ab3af819560) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧠 How It Works
 
-**Use your preferred IDE**
+1. User creates a profile with their skills, interests, and education.
+2. The system analyzes the profile information.
+3. AI modules generate suitable career path suggestions.
+4. Users can explore career options and required skills.
+5. Resume builder helps users create professional resumes.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
+Frontend  
 - React
-- shadcn-ui
+- TypeScript
+- Vite
 - Tailwind CSS
+- ShadCN UI Components
 
-## How can I deploy this project?
+AI / Logic  
+- AI utility modules
+- Profile based recommendation logic
 
-Simply open [Lovable](https://lovable.dev/projects/7274cf7a-f6b8-4d06-99ea-8ab3af819560) and click on Share -> Publish.
+Tools  
+- Node.js
+- Git & GitHub
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📂 Project Structure
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+src/
+components/ → UI components
+contexts/ → Profile management
+hooks/ → Custom hooks
+lib/ → AI utilities
+pages/ → Application pages
+types/ → Type definitions
+
+
+---
+
+## 📌 Main Modules
+
+### Profile System
+Stores user information including skills, interests, and career goals.
+
+### Career Navigator
+Analyzes user data and recommends suitable career paths.
+
+### Resume Builder
+Allows users to generate structured resumes based on their profile.
+
+### Skills Tracker
+Suggests skills required for selected career paths.
+
+---
+
+## 💡 Future Improvements
+
+• Integrate real AI models for career prediction  
+• Add ML-based skill gap analysis  
+• Job market data integration  
+• AI resume feedback system  
+• Interview preparation module  
+
+---
+
+
+
+## 👨‍💻 Author
+
+Developed by  
+**Snigdha Ramaraju**
+
+B.Tech Computer Science – KG Reddy College  
+BS Data Science – IIT Madras  
